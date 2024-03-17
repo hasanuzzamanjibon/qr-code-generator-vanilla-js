@@ -30,6 +30,8 @@ let myToast = Toastify({
 });
 
 // function
+
+// generate btn acction
 generateBtn.addEventListener("click", () => {
   const textValue = qrcodeInput.value;
   if (textValue === "") {
@@ -40,6 +42,7 @@ generateBtn.addEventListener("click", () => {
   }
 });
 
+// downloadbtn action
 downloadBtn.addEventListener("click", () => {
   fetchImage(imageSource);
 });
